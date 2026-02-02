@@ -1,0 +1,11 @@
+#map {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.popup-img {
+    width: 160px;
+    border-radius: 8px;
+}
