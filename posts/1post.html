@@ -1,40 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../css/headerAndFooter.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/map.css">
 
+
+    <!-- Leaflet -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
 
     <title>Dag 1</title>
 </head>
+
 <body>
-        <header id="header"></header>
 
-<h1>Dag 1</h1>
+<header id="header"></header>
 
+<main>
+<article class="post">
 
-<p>Hey er landet i Australien</p>
+    <h1 class="post-title">Dag 1 – Første dag i Sydney</h1>
 
-<div  id="textContainer"> tekst skal herind måske </div>
-<p id="text">Vi er så heldige at Denice har et familiemedlem i Sydney, hendes fars kusine (A), som vi kan sove hos. Klokken er 23:00 vi har næsten ikke sovet i flyene og klokken er 36 timer 
-    længere fremme end da vi steg på første fly. A er rigtig sød, jeg får mit eget værelse imens pigerne deler. Vi vågner så kl 7 Australsk tid og gør os klar på en tur i Sydney. Vi 
-    bliver sat af ved havnen og går så til Hammington Bridge, så hen til det flotte dansk designet Opera Hus hvor der bliver taget en masse billeder. 
+    <p class="lead">
+        Vi er landet i Australien! Denice har et familiemedlem, som vi har fået lov til at bo hos her i Sydney – hendes fars kusine Anne.
+    </p>
 
-    Jeg har ikke solcreme med fra Danmark det er 32 grader med en UV på 12, jeg går ind i en kiosk og spørger efter den billigste solcreme hvor hun giver mig en på 20 ml, jeg køber den bare 
-    jeg skulle dog aldrig have valgt at spare på solcremen da jeg jo så allerede på dag 1 ender med at blive solbrændt fordi at jeg har væet sparsom med min lille solcreme
+    <p>
+        Hun er rigtig sød, og vi bliver kørt hjem til dem, hvor vi får vores værelser. Allerede klokken 7 australsk tid vågner vi og gør os klar
+        til at udforske byen. Vi bliver sat af ved Darling Harbour, går forbi Harbour Bridge og videre til det flotte, dansk-designede Opera House,
+        hvor der selvfølgelig bliver taget en masse billeder.
+    </p>
 
-    Vi tager så en Uber til Bondi Beach, en mega flot strand <br> hvor vi får badet og solet os, nogle af os lidt for meget da det er 32 grader med en UV på 12.
-    Vi får en burrito, spiller kort (røvhul og irish snap) prøver at finde hjem uden data da ingen af os har data, kommer heldvis hjem inden det bliver alt for sent med en klar plan om at surfe i morgen.
-</p>
+    <p>
+        Jeg havde ved en fejl glemt solcremen hjemmefra. Det er 33 grader og UV-indekset er 12, så jeg går ind i en kiosk og køber den billigste –
+        en lille tube på 20 ml. Det viser sig at være en dårlig idé, for jeg sparer for meget på den og ender allerede på dag 1 med at blive solbrændt.
+    </p>
+    
+    <p>Hold musen over markørene for at se billeder</p>
+    <!-- Kort -->
+    <div id="sydneyMap"></div>
 
-<figure class="image-block">
-    <img src="/Resources/IMG_6074.jpg" alt="Kastrup lufthavn">
-    <figcaption>Sydney kl 23:02</figcaption>
-</figure>
+    <p>
+        Senere tager vi en Uber til Bondi Beach – en virkelig flot strand – hvor vi bader og slapper af. Nogle af os lidt for længe i solen.
+        Vi spiser burritos, spiller kort (røvhul og Irish Snap) og prøver at finde hjem uden data på telefonerne.
+        Heldigvis når vi hjem inden det bliver alt for sent, med en klar plan om at tage ud og surfe i morgen.
+    </p>
 
+    <figure class="image-block">
+        <img src="/Resources/IMG_6074.jpg" alt="Sydney om aftenen">
+        <figcaption>Sydney kl. 23:02</figcaption>
+    </figure>
 
-<script type="module" src="../scripts/header.js"></script>
+</article>
+</main>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/scripts/sydneyMap.js"></script>
+<script type="module" src="/scripts/header.js"></script>
+
 </body>
 </html>
