@@ -113,4 +113,10 @@ a {
     background: #444;
     transform: translateY(-2px);
 }
+.post-video {
+    width: 60%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+}
 

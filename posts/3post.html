@@ -1,34 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/headerAndFooter.css">
+
+    <link rel="stylesheet" href="../css/headerAndFooter.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <title>Dag 3</title>
 </head>
+
 <body>
-        <header id="header"></header>
 
-    <h1>Dag 3</h1>
+<header id="header"></header>
 
+<main>
+<article class="post">
 
+    <h1 class="post-title">Dag 3</h1>
 
-
-    <p>Vi sagde farvel til familien vi have været hos, hvor jeg også fik spist en cournel med lurpak smør og honning
-
-        I dag skal vi nå en bus til Byron Bay klokken 19:00, så vi tog til Sydneys Central Station for at aflevere vores bagagge, 
-        hvor vi så derefter beslutted os for at gå igennem Oxford street for at se lidt mere af byen 
-        Vejret var stadig brændende dejlig varmt, efter vi havde gået halvdelen af gadenn igennem besluttede vi os så for at tage en bus hen til den omtalte 
-        restaurant Totti's tæt påp Bondi Beach, hvor vi fik pasta til flere penge end vi havde troet, men det smagte super godt.
-
-         Resten afdagen gik med shopping i Westfied Mall, hvor jeg blev klippet
-        og fik en mullet. Så købte vi nogle snacks til bussen der tager 11 timer til Byron Bay
-
-
+    <p class="lead">
+        I dag vågnede vi op og sagde farvel til familien, vi havde været hos. Inden vi tog afsted fik jeg spist en Australsk cornel med Lurpak smør og honning.
     </p>
 
+    <p>
+        I dag skal vi nå en bus til Byron Bay klokken 19:00, og vi har alt vores baggage på os, så vi tager til Sydneys Central Station for at afleverer vores bagage.
+        Derefter besluttede vi os for at gå igennem Oxford Street for at se lidt mere af byen. 
+    </p>
+        <figure class="image-block">
+    <img src="/Resources/oxfordstreet.jpg" alt="Dag 2 billede 4">
+</figure>
 
-<script type="module" src="../scripts/header.js"></script>
+    <p>
+        Vejret var stadig brændende dejligt varmt, og efter vi havde gået halvdelen af gaden igennem, besluttede vi os for at tage en bus
+        hen til den omtalte restaurant Totti's tæt på Bondi Beach, hvor vi fik pasta til flere penge, end vi havde troet – men det smagte super godt.
+    </p>
+<figure class="image-block">
+    <img src="/Resources/totti.jpg" alt="Dag 2 billede 4">
+</figure>
+
+    <p>
+        Resten af dagen gik med shopping i Westfield Mall, hvor jeg blev klippet og fik en mullet.
+        Så købte vi nogle snacks til bussen, der tager 11 timer til Byron Bay.
+    </p>
+    <video autoplay muted loop playsinline class="post-video">
+    <source src="/Resources/Mullet.MP4" type="video/mp4">
+</video>
+<figure class="image-block">
+    <img src="/Resources/18A5E93B-41A9-43EC-9035-3D63FC62D395.jpg" alt="Dag 2 billede 4">
+</figure>
+
+
+    <!-- simple navigation -->
+    <div class="post-nav">
+        <a class="nav-btn" href="/posts/2post.html">← Forrige</a>
+        <a class="nav-btn" href="/posts/4post.html">Næste →</a>
+    </div>
+
+</article>
+</main>
+
+<script type="module" src="/scripts/header.js"></script>
+
 </body>
 </html>
