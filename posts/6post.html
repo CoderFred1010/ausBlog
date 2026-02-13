@@ -1,11 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/headerAndFooter.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Dag 6</title>
 </head>
+
 <body>
-    <p>dsds</p>
+
+<header id="header"></header>
+
+<main>
+<article class="post">
+
+    <!-- ===== TITLE ===== -->
+    <h1 class="post-title">Dag 6 - Byron Bay Surfing</h1>
+
+
+    <!-- ===== LEAD ===== -->
+    <p class="lead">
+        Dagen startede ud med en god morgenmad, på den lokale cafe ved siden af hotellet...
+         
+    </p>
+
+    <figure class="image-block">
+        <img src="/Resources/morgenmadbb.jpg" alt="morgenmad">
+        <figcaption>Avocado toast</figcaption>
+    </figure>
+
+    <p>Efter det, spillede vi lidt tennis på tennisbanen hotellet havde</p>
+
+
+    <!-- ===== TEXT ===== -->
+    <p>
+        Så tog jeg og Sigrid ud på en surf lektion 20 minutter udenfor Byron Bay, sammen med et hold med andre begyndere
+        Stranden hed Flatrock.
+
+        Lektionen gik godt og jeg kom op på et par enkelte små bølger, det var sjovt og med en energisk underviser, det var også 
+        rart af have samtale med de andre på holdet
+
+    </p>
+
+    <figure class="image-block">
+        <img src="/Resources/bussurfbb.jpg" alt="Busturen">
+        <figcaption>Busturen til stranden, havde ikke kamera med ud på bølgerne dsv</figcaption>
+    </figure>
+
+    <p>
+        Også gik resten af dagen i den gode varme
+    </p>
+
+
+    
+
+    
+
+
+    <!-- ================= COMMENTS (DISQUS) ================= -->
+    <section class="comments">
+        <div id="disqus_thread"></div>
+    </section>
+
+    <script>
+    var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = window.location.pathname;
+    };
+
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://frediaustralien-dk.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <!-- ===================================================== -->
+
+
+    <!-- ===== NAVIGATION ===== -->
+    <div class="post-nav">
+        <a class="nav-btn" href="/posts/5post.html">← Forrige</a>
+        <a class="nav-btn" href="/posts/7post.html">Næste →</a>
+    </div>
+
+</article>
+</main>
+
+<script type="module" src="/scripts/header.js"></script>
+
 </body>
 </html>
