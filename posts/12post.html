@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,55 +7,85 @@
     <link rel="stylesheet" href="../css/headerAndFooter.css">
     <link rel="stylesheet" href="../css/style.css">    
 
-    <title>Document</title>
+    <title>Dag 12</title>
 </head>
+
 <body>
+
 <header id="header"></header>
 
-    <main>
-        <article class="post"> 
-<h1 class="post-title">Dag 9 -  Brisbane</h1>
+<main>
+<article class="post"> 
 
+<h1 class="post-title">Dag 12 – Airlie Beach</h1>
 
 <p class="lead">
-    
+    I dag skal vi mod Nordaustralien til byen Airlie Beach. Det skulle have været en dejlig nem tur,
+    men flyet blev 3,5 timer forsinket. Det gik dog fint nok – vi fik gratis mad i lufthavnen som kompensation.
+    I flyet sad jeg bare og kiggede i menukortet i to timer. Ingen mobil, ingen bog, ingen underholdning og ingen søvn.
+    Gjorde det bare for sjov.
+</p>
+
+<video controls class="post-video">
+    <source src="/Resources/Proserpine.MOV" type="video/mp4">
+</video>
+
+<p>
+    I Airlie Beach har vi alle tre booket forskellige steder at bo. Jeg skal bo på et hostel, der hedder
+    "Backpacker By The Bay". Jeg har aldrig boet på et hostel før, og mit førstehåndsindtryk var forfærdeligt.
+    Et firemandsværelse skal jeg bo på, og der stank derinde. Klokken var 16:00, og der sov en gut i den ene seng,
+    der lugtede, med sin halvdrukne vodkaflaske og gennemblødte strømper på gulvet.
+    Nå, heldigvis var de andre mennesker jeg mødte på hostellet mere normale.
+</p>
+
+<p>
+    I fællesrummet bliver jeg venner med to italienere, og jeg snakker med dem og mange andre resten af aftenen.
+    Ellers går dagen med forberedelse til i morgen, hvor vi alle tre skal på en bådtur rundt om de her
+    "Whitsunday-øer" ved Great Barrier Reef.
+</p>
+
+<figure class="image-block">
+    <img src="/Resources/Kebabbutik.jpg" alt="Kebabbutik i Airlie Beach">
+</figure>
+
+<p>
+    Jeg blev snydt af en kebabmand. Jeg ville have en durumrulle og gik forbi et sted, hvor jeg troede,
+    de havde de her kødruller, der bliver grillet på en spydovn. Men da jeg kom ind i restauranten,
+    var det bare billeder af nogle kødruller. Jeg endte med at købe kebaben alligevel,
+    men jeg må indrømme, at jeg var lidt skuffet.
 </p>
 
 
+<!-- ================= COMMENTS (DISQUS) ================= -->
+<section class="comments">
+    <div id="disqus_thread"></div>
+</section>
+
+<script>
+var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = window.location.pathname;
+};
+
+(function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://frediaustralien-dk.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<!-- ===================================================== -->
 
 
+<div class="post-nav">
+    <a class="nav-btn" href="/posts/11post.html">← Forrige</a>
+    <a class="nav-btn" href="/posts/13post.html">Næste →</a>
+</div>
 
+</article>
+</main>
 
-        <!-- ================= COMMENTS (DISQUS) ================= -->
-    <section class="comments">
-        <div id="disqus_thread"></div>
-    </section>
-
-    <script>
-    var disqus_config = function () {
-        this.page.url = window.location.href;
-        this.page.identifier = window.location.pathname;
-    };
-
-    (function () {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://frediaustralien-dk.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-    </script>
-    <!-- ===================================================== -->
-
-
-    <!-- ===== NAVIGATION ===== -->
-    <div class="post-nav">
-        <a class="nav-btn" href="/posts/11post.html">← Forrige</a>
-        <a class="nav-btn" href="/posts/13post.html">Næste →</a>
-    </div>
-        </article>
-    </main>
-    
-    <script type="module" src="/scripts/header.js"></script>    
+<script type="module" src="/scripts/header.js"></script>    
 
 </body>
 </html>
